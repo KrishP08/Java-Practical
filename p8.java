@@ -5,20 +5,13 @@ class p8 {
         Scanner A = new Scanner(System.in);
         System.out.println("Enter your number");
         int n = A.nextInt();
-        int i = 1;
-        int j = 1;
-        int x = 2;
-        for (i = 0; i <= n; i++) {
-            int count = 0;
-
-            for (j = 1; j <= x; j++)
-                if (x % j == 0)
-                    count++;
-
-            if (count == 2)
-                System.out.print(x + " ");
-
-            x++;
+        int temp = n;
+        int sum = 0;
+        while (n > 0) {
+            int rev = n % 10;
+            sum = sum * 10 + rev;
+            n = n / 10;
         }
+        System.out.println("reverse number is " + sum);
     }
 }
