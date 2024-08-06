@@ -5,7 +5,6 @@ class p8 {
         Scanner A = new Scanner(System.in);
         System.out.println("Enter your number");
         int n = A.nextInt();
-        int temp = n;
         int sum = 0;
         while (n > 0) {
             int rev = n % 10;
