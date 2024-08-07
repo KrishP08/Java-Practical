@@ -5,6 +5,7 @@ class p9 {
         Scanner A = new Scanner(System.in);
         System.out.println("Enter your number");
         int n = A.nextInt();
+        A.close();
         int i = 1;
         int j = 1;
         int x = 2;
@@ -20,5 +21,6 @@ class p9 {
 
             x++;
         }
+
     }
 }

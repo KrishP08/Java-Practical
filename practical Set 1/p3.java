@@ -8,5 +8,6 @@ class p3{
 		{System.out.println("given Number is even");}
 	else
 		{System.out.println("given Number is odd");}
+		A.close();
 }
 }

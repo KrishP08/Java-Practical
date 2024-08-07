@@ -16,5 +16,6 @@ class p5 {
         else{
             System.out.println("number C is max");
         }
+        A.close();
     }
 }

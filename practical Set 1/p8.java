@@ -12,5 +12,6 @@ class p8 {
             n = n / 10;
         }
         System.out.println("reverse number is " + sum);
+        A.close();
     }
 }

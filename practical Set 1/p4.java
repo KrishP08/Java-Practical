@@ -23,5 +23,6 @@ class p4{
 	System.out.println("enter right num");
 	break;
 }
+A.close();
 }
 }

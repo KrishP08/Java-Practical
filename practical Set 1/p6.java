@@ -5,5 +5,6 @@ public class p6 {
         System.out.println("Entet a value");
         int a=A.nextInt();
         System.out.println("Your Entered value is "+a);   
+        A.close();
 }
 }
