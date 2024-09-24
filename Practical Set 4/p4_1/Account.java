@@ -25,5 +25,6 @@ public class Account
 	    System.out.println("name:-"+a1.name);
 	    System.out.println("account no:-"+a1.acc_no);
 	    System.out.println("balance:-"+a1.bal);
+		s1.close();
 	}
 }

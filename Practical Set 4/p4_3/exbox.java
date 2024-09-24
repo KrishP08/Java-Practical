@@ -23,5 +23,6 @@ class Box
 	        b1.b=s1.nextInt();
 	        float vol=b1.volume(b1.w,b1.h,b1.b);
 	        System.out.println("volume of Box is "+vol);
+			s1.close();
 	}
 }

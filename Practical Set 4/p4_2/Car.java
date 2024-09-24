@@ -23,5 +23,6 @@ public class Car
 	    a1.no=s1.nextInt();
 	    a1.setdata(a1.name,a1.no);
 	    a1.getdata();
+		s1.close();
 	}
 }
